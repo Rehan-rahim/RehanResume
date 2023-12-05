@@ -1,0 +1,120 @@
+:root {
+    --main-bg-colour: #4cb19b; 
+    --inside-colour: #BF912B;
+    --main-colour: #e9bea6;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-colour);
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Personal Details Section */
+#personal-details {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.my-picture {
+    float: left;
+    margin-right: 20px;
+}
+
+.my-picture img {
+    max-width: 170px;
+    border-radius: 50%;
+}
+
+.my-profile {
+    overflow: hidden;
+}
+
+.my-profile h1 {
+    margin: 0 0 10px;
+    font-size: 30px;
+    color: var(--main-bg-colour);
+}
+
+.my-profile strong {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Experience and Education Tables */
+#experience h2{
+    color:var(--inside-colour);
+}
+
+#education h2{
+    color:var(--inside-colour);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+thead {
+    background-color: #b9f1c7;
+}
+
+/* Skills Section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#projects {
+    margin-top: 20px;
+}
+
+#projects h2{
+    color:var(--inside-colour);
+}
+
+.project-list {
+    list-style-type:none;
+    padding: 0;
+}
+
+.project-list li {
+    margin-bottom: 20px;
+
+}
+.project-list li h3{
+    color: var(--main-bg-colour);
+}
+
+.project-list h3 {
+    margin: 0;
+}
+
+.project-list p {
+    margin: 10px 0 0;
+}
+
+.skill-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#skills h2{
+    color:var(--inside-colour);
+}
